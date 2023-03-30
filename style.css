@@ -2,7 +2,10 @@ h1{
     color: red;
 }
 .escrito{
+    display: flexbox;
     background-color: blue;
     padding: 10%;
     width: min-content;
+   text-align: center;
+
 }
