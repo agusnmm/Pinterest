@@ -37,6 +37,7 @@ body {
   border-radius: var(--card_border_radius);
   background-color: rgb(237, 230, 230);
   position: relative;
+  
 }
 
 .card_small {
@@ -197,8 +198,6 @@ body {
   height: 45px;
   font-size: 16px;
   
-  
-
 }
 
 .card_buttons button:hover {
