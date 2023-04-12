@@ -71,7 +71,6 @@ body {
   font-family: 'Pinterest Sans', sans-serif;
   font-style: normal;
   border-bottom: 1px solid #e1e1e1;
- 
   
 }
 
@@ -211,8 +210,6 @@ body {
   right: 150px;
 }
 
-
-
 .card .card_buttons button:nth-child(2) {
   position: absolute;
   bottom: 2px;
@@ -229,7 +226,24 @@ body {
   align-items: center;
 }
 
+@media only screen and (max-width: 1200px) {
+  #navbar-pinterest {
+    transform: scale(0.7);
+  }
+}
 
+@media only screen and (max-width: 800px) {
+  #navbar-pinterest {
+    transform: scale(0.6);
+    left: -200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #navbar-pinterest {
+    display: none;
+  }
+}
 
 
 
